@@ -8,3 +8,5 @@
 (drop(['age_account_range', 'operation_count_credit_cash', 'operation_count_collect', 'operation_count_with_cash', 'operation_count_remi', 'operation_count_with_card', 'operation_count_interest', 'operation_mean_credit_cash', 'operation_mean_collect', 'operation_mean_with_cash', 'operation_mean_remi', 'operation_mean_with_card', 'operation_mean_interest', 'operation_std_credit_cash', 'operation_std_collect', 'operation_std_with_cash', 'operation_std_remi', 'operation_std_with_card', 'operation_std_interest', 'operation_cov_credit_cash', 'operation_cov_collect', 'operation_cov_with_cash', 'operation_cov_remi', 'operation_cov_with_card', 'operation_cov_interest', 'balance_std', 'balance_last', 'type_std_withdrawal', 'type_std_credit', 'type_cov_withdrawal', 'type_cov_credit', 'amount_std', 'amount_last', 'amount_range', 'balance_std', 'balance_last', 'balance_range','hasCard', 'unemploymant rate '95']))
 
 **score = 0.90452** -> Random Forest c/tunning (scoring="f1_macro", cv=5)
+
+* 11/12 - **score = 0.93744** -> logistic regression c/ tunning e 16 melhores parametros
